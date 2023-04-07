@@ -6,18 +6,5 @@
 //👉 Write the function your CodeWarriors will start with below here:
 
 export function uniqueLetters(string) {
-    let seenLetters = new Set()
-
-    for (let i = 0; i < string.length; i++)
-    {
-        let letter = string[i].toLowerCase()
-
-        if (seenLetters.has(letter)) {
-            return false
-        }
-        else {
-            seenLetters.add(letter)
-        }
-    }
-    return true
+    
 }
